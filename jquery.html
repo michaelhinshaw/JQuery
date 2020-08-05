@@ -14,6 +14,7 @@
                           <p id='1'>Paragraph 1</p>\
                           <p id='2'>Paragraph 2</p>\
                           <p id='3'>Paragraph 3</p>\
+                          <p id='4'>Paragraph 4</p>\
                       </div>\
                   </div>\
               </body>"
@@ -23,9 +24,10 @@
           $("#3").click(function() {
               $('h1').hide();
           });
-          $("1").on("click", function() {
+          $("#1").on("click", function() {
               console.log("click");
           });
+          $("#4").fadeOut(2000);
       });
 
     </script>
